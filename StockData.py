@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import numpy as np
 from statsmodels.tsa.stattools import adfuller, coint #NOTE: Statsmodels 0.14.1, Scipy 1.12.0 for compatibility
-from pr_scraper import getpe
+from pe_scraper import getpe
 import asyncio
 
 
